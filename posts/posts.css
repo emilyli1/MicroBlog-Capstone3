@@ -1,0 +1,73 @@
+/* Posts Page CSS */
+.post-container {
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.post-body {
+  font-size: 18px;
+}
+
+.post-footer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.card {
+  width: 100%;
+  margin-bottom: 1rem;
+  /* add some space between cards */
+  background-color: #f5f5f5;
+  /* add some color */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  /* add some depth */
+  text-align: center;
+  color: rgb(10, 148, 203);
+}
+
+h1 {
+  text-align: center;
+  margin-left: 42%;
+}
+
+body {
+  background-color: black;
+}
+
+/* nav bar css */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Title {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  padding: 10px 20px;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+nav ul li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul #logoutButton {
+  background-color: white;
+  margin-right: 5px;
+  background: none;
+  padding: 0%;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
